@@ -1,2 +1,2 @@
 # nytsg-site
-Landing page for New York Tech for Social Good
+This is the landing page for New York Tech for Social Good
