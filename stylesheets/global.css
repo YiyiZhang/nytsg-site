@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/*Layout*/
+
+/*Header*/
+h1 {
+  font-family: 'Roboto', Georgia, sans-serif;
+}
+
+h2 {
+
+}
+
+/*Body*/
+body {
+  font-family: 'Roboto';
+  font-size: 0.85em;
+}
+
+/*Links*/
+
+/*Nav*/
