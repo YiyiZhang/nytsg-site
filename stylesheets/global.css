@@ -1,55 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
-
-/*Responsive*/
-@media only screen and (max-device-width: 460px) {
-
-    body .topbar {
-      height: 20px;
-    }
-
-    body .navbar {
-      height: 350px;
-      background-image:url('../grafix/NYTSG-fulltextlogo-lg.svg');
-    }
-
-    .content-area-left {
-      min-width: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    .content-area-left p, .content-area-left ul {
-      padding-right: 40px;
-      font-size: 11px;
-    }
-
-    .content-area-right {
-      min-width: 100%;
-      margin: 0;
-      padding: 0;
-      margin-left: 0;
-    }
-
-    .content-area-right p, .content-area-right h1, .content-area-right a {
-      padding-right: 60px;
-      font-size: 11px;
-    }
-
-    .social img {
-      width: 100px;
-    }
-
-    .social h3 {
-      font-size: 60px;
-    }
-
-    .social a {
-      font-size: 30px;
-    }
-
-  }
-
 /*Layout*/
 
 /*Header*/
@@ -146,3 +96,54 @@ ul {
 a {
   color: #00AE4C;
 }
+
+/*Responsive*/
+@media only screen and (max-device-width: 460px) {
+
+    body .topbar {
+      height: 20px;
+    }
+
+    body .navbar {
+      height: 350px;
+      background-image:url('../grafix/NYTSG-fulltextlogo-lg.svg');
+    }
+
+    .content-area-left {
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .content-area-left p, .content-area-left ul {
+      padding-right: 40px;
+      margin-left: 10px;
+      font-size: 11px;
+    }
+
+    .content-area-right {
+      min-width: 100%;
+      margin: 0;
+      padding: 0;
+      padding-top: 10px;
+    }
+
+    .content-area-right p, .content-area-right h1, .content-area-right a {
+      padding-right: 60px;
+      margin-left: 10px;
+      font-size: 11px;
+    }
+
+    .social img {
+      width: 100px;
+    }
+
+    .social h3 {
+      font-size: 60px;
+    }
+
+    .social a {
+      font-size: 30px;
+    }
+
+  }
